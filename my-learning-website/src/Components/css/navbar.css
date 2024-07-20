@@ -1,0 +1,40 @@
+/* navbar.css */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db; /* Blue background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .logo p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White text */
+    margin: 0;
+  }
+  
+  .list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .list li {
+    margin-left: 20px;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .list li a:hover {
+    color: #f39c12; /* Orange on hover */
+  }
+  
